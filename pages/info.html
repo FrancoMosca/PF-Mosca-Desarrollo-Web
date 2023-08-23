@@ -7,51 +7,50 @@
     <link rel="stylesheet" href="../styles.css">
     <title>Portfolio</title>
 </head>
-<body>
-    <header id="header">
-        <img src="../assets/svg/logo.svg" alt="Logo">
+<body class="bg-[#27272A] font-rocko">
+    <header class="flex fixed w-full sm:h-28 justify-center bg-[#27272A] z-10">
+        <img class="sm:m-auto sm:h-24" src="../assets/svg/logo.svg" alt="Logo">
     </header>
     <main class="section" id="info">
         <h1>Project info</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam enim, facere laborum corporis quae odio alias provident perspiciatis suscipit rem assumenda nihil unde sequi ipsam. Voluptatum hic ex debitis unde!</p>
-        <nav>
-            <input type="checkbox" id="menu-toggle" class="nav-input">
-
-            <label for="menu-toggle" class="nav-icon">
+        <nav class="xl:max-w-[30%] sm:bg-[#00000033] sm:fixed sm:bottom-16 sm:w-6/12 sm:h-[70px] sm:flex sm:overflow-hidden sm:items-center sm:justify-center sm:rounded-full sm:shadow-lg sm:shadow-[#6000ce33]">
+            <input type="checkbox" id="menu-toggle" class="nav-input sm:hidden">
+            <label for="menu-toggle" class="nav-icon sm:hidden sm:pointer">
                 <i class="fas fa-bars"></i>
                 <i class="fas fa-times"></i>
             </label>         
-            <div class="menu">
-                <li>
-                    <a href="../index.html" class="icon">
+            <div class="menu sm:overflow-hidden sm:flex sm:flex-row sm:items-center sm:justify-center sm:w-full sm:h-full">
+                <li class="list-none sm:px-5 lg:px-8 md:text-2xl text-[#E8E2E2]">
+                    <a href="../index.html">
                         <i class="fas fa-home"></i>
                     </a>
                 </li>
-                <li>
-                    <a href="about.html" class="icon">
+                <li class="list-none sm:px-5 lg:px-8 md:text-2xl text-[#E8E2E2]">
+                    <a href="./about.html">
                         <i class="fas fa-user"></i>
                     </a>
                 </li>
-                <li>
-                    <a href="projects.html" class="icon">
+                <li class="list-none sm:px-5 lg:px-8 md:text-2xl text-[#E8E2E2]">
+                    <a href="./projects.html">
                         <i class="fas fa-folder"></i>
                     </a>
                 </li>
-                <li>
-                    <a href="contact.html" class="icon">
+                <li class="list-none sm:px-5 lg:px-8 md:text-2xl text-[#E8E2E2]">
+                    <a href="./contact.html">
                         <i class="fas fa-phone"></i>
                     </a>
                 </li>
-                <li>
-                    <a href="info.html" class="icon">
+                <li class="list-none sm:px-5 lg:px-8 md:text-2xl text-[#E8E2E2]">
+                    <a href="./info.html">
                         <i class="fas fa-info"></i>
                     </a>
                 </li>
             </div>
         </nav>
     </main>
-    <footer>
-        <h1>© 2023 Franco Mosca</h1>
+    <footer class="fixed w-full bottom-0 text-center">
+        <h1 class="lg:text-sm text-[#ffffff25] font-sans">© 2023 Franco Mosca</h1>
     </footer>
 </body>
 </html> 
