@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio</title>
+</head>
+<body class="bg-[#27272A] font-sans">
+    <header class="flex fixed w-full sm:h-28 justify-center bg-[#27272A] z-10">
+            <img class="sm:m-auto sm:h-24" src="./assets/svg/logo.svg" alt="Logo">
+    </header>
+    <main class="lg:h-full lg:mt-0 lg:fixed lg:w-full relative flex flex-col justify-center items-center text-[#f5efeff2]">
+        <div class="lg:mt-0 sm:mt-28 w-full flex lg:flex-row-reverse flex-col items-center justify-center">
+            <img class="max-h-96" src="/assets/foto-portfolio.webp" alt="foto"> 
+            <div class="flex flex-col items-center">
+                <h1 class="lg:text-6xl text-4xl">
+                    Franco 
+                <span class="text-[#6d28d9]">Mosca</span>
+                </h1>
+                <p class="opacity-60">
+                    Desarrollador Full-Stack Junior
+                </p>
+            </div>
+        </div>
+        <nav class="xl:max-w-[30%] sm:bg-[#00000033] sm:fixed sm:bottom-16 sm:w-6/12 sm:h-[70px] sm:flex sm:overflow-hidden sm:items-center sm:justify-center sm:rounded-full sm:shadow-lg sm:shadow-[#6000ce33]">
+            <input type="checkbox" id="menu-toggle" class="nav-input sm:hidden">
+            <label for="menu-toggle" class="nav-icon sm:hidden sm:pointer">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </label>         
+            <div class="menu sm:overflow-hidden sm:flex sm:flex-row sm:items-center sm:justify-center sm:w-full sm:h-full">
+                <li class="list-none sm:px-5 lg:px-8 md:text-2xl text-[#E8E2E2]">
+                    <a href="#">
+                        <i class="fas fa-home"></i>
+                    </a>
+                </li>
+                <li class="list-none sm:px-5 lg:px-8 md:text-2xl text-[#E8E2E2]">
+                    <a href="pages/about.html">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </li>
+                <li class="list-none sm:px-5 lg:px-8 md:text-2xl text-[#E8E2E2]">
+                    <a href="pages/projects.html">
+                        <i class="fas fa-folder"></i>
+                    </a>
+                </li>
+                <li class="list-none sm:px-5 lg:px-8 md:text-2xl text-[#E8E2E2]">
+                    <a href="pages/contact.html">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </li>
+                <li class="list-none sm:px-5 lg:px-8 md:text-2xl text-[#E8E2E2]">
+                    <a href="pages/info.html">
+                        <i class="fas fa-info"></i>
+                    </a>
+                </li>
+            </div>
+        </nav>
+    </main>
+    <footer class="fixed w-full b-0 text-center">
+        <h1 class="lg:text-sm">© 2023 Franco Mosca</h1>
+    </footer>
+</body>
+</html> 
