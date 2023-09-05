@@ -1,152 +1,146 @@
-@import url('https://db.onlinewebfonts.com/c/569773497d938dfd9749337887f5edde?family=RockoUltraFLF');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
-
-*{
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://db.onlinewebfonts.com/c/569773497d938dfd9749337887f5edde?family=RockoUltraFLF");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
+* {
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.font-rocko{
-    font-family: RockoUltraFLF;
+.font-rocko {
+  font-family: RockoUltraFLF;
 }
 
 .font-outfit {
-    font-family: Outfit, sans-serif;
+  font-family: Outfit, sans-serif;
 }
 
-@media only screen and (max-width: 639px){
-
-    *{
-        margin: 0;
-        box-sizing: border-box;
-    }
-
-    body {
-        /* background: linear-gradient(to top, rgb(17, 24, 39), rgb(88, 28, 135), rgb(124, 58, 237)); */
-        background-color: #27272A;
-        font-family: system-ui;
-    }
-    /* HEADER */
-    header{
-        position: fixed;
-        width: 100%;
-        height: 70px;
-        display: flex;
-        justify-content: center;
-        background-color: #27272A;
-        z-index: 1;
-    }
-
-    header img{
-        margin: auto;
-        height: 80px;
-    }
-    /* MAIN */
-    main{
-        position: relative;
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-family: RockoUltraFLF;
-        color:rgba(245, 239, 239, 0.95);
-        top:70px;
-        height: calc(100vh - 80px - 1.9rem);
-    }
-
-    .contact-container{
-        display: flex;
-        flex-direction: column;
-    }
-    .contact{
-        display:flex;
-        padding: 10px;
-        font-size: large;
-    }
-
-    .contact p{
-        margin-left: 10px;
-    }
-
-    .contact a{
-        text-decoration: none;
-        color: rgba(245, 239, 239, 0.95);;
-    }
-
-    /* NAV */
-    .nav-input {
-        display: none;
-      }
-      
-    .nav-icon {
-        display: inline-block;
-        cursor: pointer;
-    }
-
-    .nav-icon i:last-child {
-        display: none; 
-    }
-
-    input:checked + .nav-icon i:first-child {
-        display: none; 
-    }
-
-    input:checked + .nav-icon i:last-child {
-        display: inline;
-    }
-      
-    nav {
-        bottom: 11%;
-        left: 50%;
-        transform: translate(-50%, 30%);
-        position: fixed;
-        background-color: rgba(0, 0, 0, 0.2);
-        padding: 20px;
-        transition: 0.5s;
-        border-radius: 50px;
-        overflow: hidden;
-        box-shadow: 0 8px 15px rgba(96, 0, 206, 0.2);
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        height: 54px;
-    }
-      
-    nav input:checked ~ .menu {
-        width:13rem;
-    }
-      
-    .menu {
-        margin: 0;
-        padding: 0;
-        width: 0;
-        overflow: hidden;
-        transition: 0.5s;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-      
-    .menu li{
-        list-style: none;
-        margin: 0 10px;
-        padding: 0px 5px;
-    }
-
-    .menu li a {
-        color: rgba(245, 239, 239, 0.95);
-    }
-
-    /* FOOTER */
-    footer{
-        position:fixed;
-        width: 100%;
-        bottom: 0;
-        text-align: center;
-    }
-
-    footer h1{
-        color: rgba(255, 255, 255, 0.144);
-        font-size: xx-small;
-    }
+@media only screen and (max-width: 639px) {
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    /* background: linear-gradient(to top, rgb(17, 24, 39), rgb(88, 28, 135), rgb(124, 58, 237)); */
+    background-color: #27272a;
+    font-family: system-ui;
+  }
+  /* HEADER */
+  header {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: #27272a;
+    z-index: 1;
+  }
+  header img {
+    margin: auto;
+    height: 80px;
+  }
+  /* MAIN */
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: RockoUltraFLF;
+    color: rgba(245, 239, 239, 0.9490196078);
+    height: 100vh;
+  }
+  main img {
+    height: 340px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 80rem;
+    width: 83.333333%;
+    margin: auto;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 56rem;
+    width: 100%;
+    gap: 2rem;
+    background-color: white;
+    color: #27272a;
+    box-shadow: 0 4px 6px -1px #6d28d9;
+    border: solid;
+    border-color: transparent;
+  }
+  /* NAV */
+  .nav-input {
+    display: none;
+  }
+  .nav-icon {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .nav-icon i:last-child {
+    display: none;
+  }
+  input:checked + .nav-icon i:first-child {
+    display: none;
+  }
+  input:checked + .nav-icon i:last-child {
+    display: inline;
+  }
+  nav {
+    bottom: 11%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: 0.5s;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 8px 15px #6d28d9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 54px;
+  }
+  nav input:checked ~ .menu {
+    width: 13rem;
+  }
+  .menu {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .menu li {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0px 5px;
+  }
+  .menu li a {
+    color: rgba(245, 239, 239, 0.9490196078);
+  }
+  /* FOOTER */
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+  }
+  footer h1 {
+    color: rgba(255, 255, 255, 0.144);
+    font-size: xx-small;
+  }
 }
+
+/*# sourceMappingURL=styles.css.map */
