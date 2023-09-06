@@ -52,29 +52,38 @@
   }
   .container {
     display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    max-width: 80rem;
-    width: 83.333333%;
-    margin: auto;
-  }
-  .card {
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     max-width: 56rem;
     width: 100%;
     gap: 2rem;
-    background-color: white;
-    color: #27272a;
+    color: white;
+  }
+  .card {
     box-shadow: 0 4px 6px -1px #6d28d9;
     border: solid;
-    border-color: transparent;
+    border-color: #6d28d9;
+    overflow: hidden;
+    border-width: 1px;
+    border-radius: 0.75rem;
+    max-width: 20rem;
+  }
+  .card img {
+    width: 320px;
+    height: 240px;
+  }
+  .card .info {
+    padding: 1.25rem;
+    border-top-width: 2px;
+    gap: 1.25rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .card .texto {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
   }
   /* NAV */
   .nav-input {

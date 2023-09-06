@@ -86,30 +86,42 @@ $color__text--dark: #f5efeff2;
 
     .container{
         display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        justify-content: center;
-        align-items: center;
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-        max-width: 80rem;
-        width: 83.333333%;
-        margin: auto;
-    }
-
-    .card{
-        display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         max-width: 56rem;
         width: 100%;
         gap: 2rem;
-        background-color: white;
-        color: #27272a;
+        color: white;
+    }
+
+    .card{
         box-shadow: 0 4px 6px -1px $color__secondary;
         border:solid;
-        border-color: transparent;
+        border-color: $color__secondary;
+        overflow: hidden;
+        border-width: 1px;
+        border-radius: 0.75rem;
+        max-width: 20rem;
+
+        img{
+            width: 320px;
+            height: 240px;
+        }
+
+        .info{
+            padding: 1.25rem;
+            border-top-width: 2px;
+            gap: 1.25rem;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .texto{
+            display:flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
     }
 
     /* NAV */
