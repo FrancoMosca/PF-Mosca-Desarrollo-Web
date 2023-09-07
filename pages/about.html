@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/svg" href="../assets/svg/logo.svg"/>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Portfolio</title>
 </head>
 
-<body class="bg-[#27272A] font-sans">
-    <header class="flex fixed w-full sm:h-28 justify-center bg-[#27272A] z-10">
-        <img class="sm:m-auto sm:h-24" src="../assets/svg/logo.svg" alt="Logo">
+<body class="bg-[#27272A]">
+    <header>
+        <img src="../assets/svg/logo.svg" alt="Logo">
     </header>
-    <main class="lg:h-full lg:mt-0 lg:fixed lg:w-full relative flex flex-col justify-center items-center text-[#f5efeff2]">
-        <div class="flex flex-col w-5/6 gap-12 sm:mt-28 pb-24 font-outfit">
+    <main id="about" class="lg:h-full lg:mt-0 lg:fixed lg:w-full">
+        <div class="flex flex-col w-5/6 gap-12 sm:mt-28 pb-24 font-DM">
             <div class="flex flex-col lg:flex-row gap-3 justify-around">
                 <div class="flex flex-col">
                     <h3 class="text-left text-2xl font-medium lg:text-5xl">
@@ -96,34 +97,34 @@
                 </div>
             </div>
         </div>
-        <nav class="xl:max-w-[30%] sm:bg-[#00000033] sm:fixed sm:bottom-16 sm:w-6/12 sm:h-[70px] sm:flex sm:overflow-hidden sm:items-center sm:justify-center sm:rounded-full sm:shadow-lg sm:shadow-[#6000ce33]">
-            <input type="checkbox" id="menu-toggle" class="nav-input sm:hidden">
-            <label for="menu-toggle" class="nav-icon sm:hidden sm:pointer">
+        <nav class="xl:max-w-[30%]">
+            <input type="checkbox" id="menu-toggle" class="nav-input">
+            <label for="menu-toggle" class="nav-icon">
                 <i class="fas fa-bars"></i>
                 <i class="fas fa-times"></i>
             </label>         
-            <div class="menu sm:overflow-hidden sm:flex sm:flex-row sm:items-center sm:justify-center sm:w-full sm:h-full">
-                <li class="list-none sm:px-5 lg:px-8 md:text-2xl text-[#E8E2E2]">
+            <div class="menu">
+                <li class="lg:px-8 md:text-2xl">
                     <a href="../index.html">
                         <i class="fas fa-home"></i>
                     </a>
                 </li>
-                <li class="list-none sm:px-5 lg:px-8 md:text-2xl text-[#E8E2E2]">
+                <li class="lg:px-8 md:text-2xl">
                     <a href="./about.html">
                         <i class="fas fa-user"></i>
                     </a>
                 </li>
-                <li class="list-none sm:px-5 lg:px-8 md:text-2xl text-[#E8E2E2]">
+                <li class="lg:px-8 md:text-2xl">
                     <a href="./projects.html">
                         <i class="fas fa-folder"></i>
                     </a>
                 </li>
-                <li class="list-none sm:px-5 lg:px-8 md:text-2xl text-[#E8E2E2]">
+                <li class="lg:px-8 md:text-2xl">
                     <a href="./contact.html">
                         <i class="fas fa-phone"></i>
                     </a>
                 </li>
-                <li class="list-none sm:px-5 lg:px-8 md:text-2xl text-[#E8E2E2]">
+                <li class="lg:px-8 md:text-2xl">
                     <a href="./info.html">
                         <i class="fas fa-info"></i>
                     </a>
@@ -131,8 +132,8 @@
             </div>
         </nav>
     </main>
-    <footer class="fixed w-full bottom-0 text-center">
-        <h1 class="lg:text-sm text-[#ffffff25] font-sans">© 2023 Franco Mosca</h1>
+    <footer>
+        <h1 class="lg:text-sm">© 2023 Franco Mosca</h1>
     </footer>
 </body>
 </html> 
