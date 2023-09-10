@@ -19,6 +19,9 @@
   body header {
     background-color: #27272a;
   }
+  body nav .menu li {
+    color: rgba(245, 239, 239, 0.9490196078);
+  }
   body nav:hover {
     background-color: #27272a;
   }
@@ -31,6 +34,9 @@
   }
   body header {
     background-color: rgba(245, 239, 239, 0.9490196078);
+  }
+  body nav .menu li {
+    color: #27272a;
   }
   body nav:hover {
     background-color: rgba(245, 239, 239, 0.9490196078);

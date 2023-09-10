@@ -50,6 +50,12 @@ $font__DM:'DM Sans', sans-serif;
         }
         
         nav{
+            .menu{
+                li{
+                    color: $color__light;
+                }
+            }
+
             &:hover{
                 background-color: $color__dark;
             }
@@ -68,6 +74,12 @@ $font__DM:'DM Sans', sans-serif;
         }
 
         nav{
+            .menu{
+                li{
+                    color: $color__dark;
+                }
+            }
+
             &:hover{
                 background-color: $color__light;
             }
