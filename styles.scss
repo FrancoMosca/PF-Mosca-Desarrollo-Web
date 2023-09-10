@@ -319,9 +319,6 @@ $font__DM:'DM Sans', sans-serif;
         box-sizing: border-box;
     }
 
-    body {
-        font-family: system-ui;
-    }
     /* HEADER */
     header{
         position: fixed;
@@ -406,7 +403,6 @@ $font__DM:'DM Sans', sans-serif;
         border-color: $color__primary;
         overflow: hidden;
         background-color: $color__secondary;
-        font-family: $font__rocko;
         img{
             max-width: 100%;
             height: auto;

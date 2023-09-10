@@ -264,9 +264,6 @@
     margin: 0;
     box-sizing: border-box;
   }
-  body {
-    font-family: system-ui;
-  }
   /* HEADER */
   header {
     position: fixed;
@@ -342,7 +339,6 @@
     border-color: #6d28d9;
     overflow: hidden;
     background-color: #241044;
-    font-family: "RockoUltraFLF";
   }
   .card img {
     max-width: 100%;
