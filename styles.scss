@@ -43,6 +43,7 @@ $font__DM:'DM Sans', sans-serif;
     body{
         font-family: $font__DM;
         background-color: $color__dark;
+        color:$color__light;
     }
 }
 
@@ -50,6 +51,7 @@ $font__DM:'DM Sans', sans-serif;
     body{
         font-family: $font__DM;
         background-color: $color__light;
+        color:$color__dark;
     }
 }
 
