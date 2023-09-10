@@ -39,20 +39,6 @@ $font__DM:'DM Sans', sans-serif;
     font-family: $font__DM;
 }
 
-@media (prefers-color-scheme: dark){
-    body{
-        font-family: $font__DM;
-        background-color: $color__dark;
-    }
-}
-
-@media (prefers-color-scheme: light){
-    body{
-        font-family: $font__DM;
-        background-color: $color__light;
-    }
-}
-
 @media (min-width: 640px) {
     
     header{
