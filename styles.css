@@ -16,12 +16,24 @@
     background-color: #27272a;
     color: rgba(245, 239, 239, 0.9490196078);
   }
+  body header {
+    background-color: #27272a;
+  }
+  body nav:hover {
+    background-color: #27272a;
+  }
 }
 @media (prefers-color-scheme: light) {
   body {
     font-family: "DM Sans", sans-serif;
     background-color: rgba(245, 239, 239, 0.9490196078);
     color: #27272a;
+  }
+  body header {
+    background-color: rgba(245, 239, 239, 0.9490196078);
+  }
+  body nav:hover {
+    background-color: rgba(245, 239, 239, 0.9490196078);
   }
 }
 @media (min-width: 640px) {
@@ -422,9 +434,6 @@
   }
   nav input:checked ~ .menu {
     width: 13rem;
-  }
-  nav:hover {
-    background-color: #27272a;
   }
   .wrapper {
     padding-top: 2rem;

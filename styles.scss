@@ -44,6 +44,16 @@ $font__DM:'DM Sans', sans-serif;
         font-family: $font__DM;
         background-color: $color__dark;
         color:$color__light;
+
+        header{
+            background-color: $color__dark;
+        }
+        
+        nav{
+            &:hover{
+                background-color: $color__dark;
+            }
+        }
     }
 }
 
@@ -52,6 +62,16 @@ $font__DM:'DM Sans', sans-serif;
         font-family: $font__DM;
         background-color: $color__light;
         color:$color__dark;
+
+        header{
+            background-color: $color__light;
+        }
+
+        nav{
+            &:hover{
+                background-color: $color__light;
+            }
+        }
     }
 }
 
@@ -460,9 +480,6 @@ $font__DM:'DM Sans', sans-serif;
             width:13rem;
         }
 
-        &:hover{
-            background-color: $color__dark;
-        }
     }
     
     .wrapper{
