@@ -47,7 +47,6 @@
     justify-content: center;
     align-items: center;
     margin-top: 7rem;
-    color: rgba(245, 239, 239, 0.9490196078);
   }
   .wrapper {
     padding-top: 2rem;
@@ -271,8 +270,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: RockoUltraFLF;
-    color: rgba(245, 239, 239, 0.9490196078);
     margin-top: 5rem;
   }
   main img {
