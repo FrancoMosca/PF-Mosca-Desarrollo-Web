@@ -23,7 +23,7 @@
     fill: rgba(245, 239, 239, 0.9490196078);
   }
   body nav .menu li {
-    color: rgba(245, 239, 239, 0.9490196078);
+    color: rgba(245, 239, 239, 0.9490196078) !important;
   }
   body nav:hover {
     background-color: #27272a;
@@ -42,7 +42,7 @@
     fill: #27272a;
   }
   body nav .menu li {
-    color: #27272a;
+    color: #27272a !important;
   }
   body nav:hover {
     background-color: rgba(245, 239, 239, 0.9490196078);

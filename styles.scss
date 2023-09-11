@@ -55,7 +55,7 @@ $font__DM:'DM Sans', sans-serif;
         nav{
             .menu{
                 li{
-                    color: $color__light;
+                    color: $color__light!important;
                 }
             }
 
@@ -82,7 +82,7 @@ $font__DM:'DM Sans', sans-serif;
         nav{
             .menu{
                 li{
-                    color: $color__dark;
+                    color: $color__dark!important;
                 }
             }
 
