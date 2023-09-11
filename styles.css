@@ -279,7 +279,7 @@
     z-index: 1;
     top: 0;
   }
-  header img {
+  header svg {
     margin: auto;
     height: 5rem;
   }
