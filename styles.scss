@@ -47,6 +47,9 @@ $font__DM:'DM Sans', sans-serif;
 
         header{
             background-color: $color__dark;
+            svg{
+                fill:$color__light;
+            }
         }
         
         nav{
@@ -71,6 +74,9 @@ $font__DM:'DM Sans', sans-serif;
 
         header{
             background-color: $color__light;
+            svg{
+                fill:$color__dark;
+            }
         }
 
         nav{
@@ -98,7 +104,7 @@ $font__DM:'DM Sans', sans-serif;
         z-index: 10;
         top:0;
         height: 7rem;
-        img{
+        svg{
             margin: auto;
             height: 6rem;
         }

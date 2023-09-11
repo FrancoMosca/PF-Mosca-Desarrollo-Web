@@ -19,6 +19,9 @@
   body header {
     background-color: #27272a;
   }
+  body header svg {
+    fill: rgba(245, 239, 239, 0.9490196078);
+  }
   body nav .menu li {
     color: rgba(245, 239, 239, 0.9490196078);
   }
@@ -34,6 +37,9 @@
   }
   body header {
     background-color: rgba(245, 239, 239, 0.9490196078);
+  }
+  body header svg {
+    fill: #27272a;
   }
   body nav .menu li {
     color: #27272a;
@@ -53,7 +59,7 @@
     top: 0;
     height: 7rem;
   }
-  header img {
+  header svg {
     margin: auto;
     height: 6rem;
   }
