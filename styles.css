@@ -85,6 +85,21 @@
     font-weight: 700;
     padding-bottom: 2rem;
   }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-container .contact {
+    display: flex;
+    flex-direction: row;
+    font-size: xx-large;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
   .index-wrapper {
     width: 100%;
     display: flex;
@@ -110,6 +125,76 @@
   }
   .index-wrapper .index-info p {
     opacity: 0.6;
+  }
+  .about-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 83.333333%;
+    gap: 3rem;
+    margin-top: 28px;
+    padding-bottom: 24px;
+  }
+  .about-wrapper .info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 640px) and (min-width: 1024px) {
+  .about-wrapper .info-container {
+    flex-direction: row;
+  }
+}
+@media (min-width: 640px) {
+  .about-wrapper .info-container .about-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-wrapper .info-container .about-card h3 {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+  }
+}
+@media (min-width: 640px) and (min-width: 1024px) {
+  .about-wrapper .info-container .about-card h3 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 640px) {
+  .about-wrapper .info-container .about-card ul {
+    list-style: disc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+  }
+}
+@media (min-width: 640px) and (min-width: 1024px) {
+  .about-wrapper .info-container .about-card ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+@media (min-width: 640px) {
+  .about-wrapper .info-container .about-card ul li {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-left: 1.25rem;
+  }
+}
+@media (min-width: 640px) and (min-width: 1024px) {
+  .about-wrapper .info-container .about-card ul li {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+@media (min-width: 640px) {
+  .about-wrapper .info-container .about-card ul li::marker {
+    color: #6d28d9;
   }
   .container {
     display: flex;
@@ -141,10 +226,9 @@
     gap: 1.25rem;
     padding: 1.25rem;
     border-top-width: 2px;
-    border-color: #6d28d9;
   }
   .card .info h3 {
-    font-weight: 1000;
+    font-weight: 600;
     font-size: 1.5rem;
     line-height: 2rem;
     margin: 0;
@@ -175,9 +259,6 @@
   .card .info .buttons .btn-1 svg {
     width: 1.25rem;
     fill: #6d28d9;
-  }
-  .card .info .buttons .btn-1:hover {
-    background-color: rgba(73, 27, 148, 0.2588235294);
   }
   .card .info .buttons .btn-2 {
     display: flex;
@@ -243,7 +324,7 @@
   }
 }
 @media (min-width: 1024px) {
-  #home {
+  #home, #about, #info {
     height: 100%;
     margin-top: 0;
     position: fixed;
@@ -294,7 +375,7 @@
   main img {
     height: 340px;
   }
-  #home, #about {
+  #home, #about, #info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -326,6 +407,21 @@
   }
   .index-wrapper .index-info p {
     opacity: 0.6;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-container .contact {
+    display: flex;
+    flex-direction: row;
+    font-size: xx-large;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
   }
   .container {
     display: flex;
