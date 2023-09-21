@@ -86,9 +86,10 @@
     padding-bottom: 2rem;
   }
   .contact-container {
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 4rem;
     align-items: center;
     justify-content: center;
   }
@@ -382,6 +383,7 @@
     align-items: center;
     height: 100vh;
     margin-top: 0;
+    padding: 2rem;
   }
   .index-wrapper {
     width: 100%;
@@ -414,11 +416,12 @@
     gap: 1.5rem;
     align-items: center;
     justify-content: center;
+    padding: 3rem;
   }
   .contact-container .contact {
     display: flex;
     flex-direction: row;
-    font-size: xx-large;
+    font-size: large;
     gap: 1rem;
     align-items: center;
     justify-content: center;
@@ -537,7 +540,7 @@
     height: 3.375rem;
   }
   nav input:checked ~ .menu {
-    width: 13rem;
+    width: 11rem;
   }
   .wrapper {
     padding-top: 2rem;

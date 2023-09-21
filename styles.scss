@@ -186,9 +186,10 @@ $font__DM:'DM Sans', sans-serif;
             }
     }
     .contact-container{
+        padding-top: 2rem;
         display: flex;
         flex-direction: column;
-        gap:1.5rem;
+        gap:4rem;
         align-items: center;
         justify-content: center;
         .contact{
@@ -433,6 +434,7 @@ $font__DM:'DM Sans', sans-serif;
         align-items: center;
         height: 100vh;
         margin-top: 0;
+        padding: 2rem;
     }
 
     .index-wrapper{
@@ -469,10 +471,11 @@ $font__DM:'DM Sans', sans-serif;
         gap:1.5rem;
         align-items: center;
         justify-content: center;
+        padding: 3rem;
         .contact{
             display:flex;
             flex-direction: row;
-            font-size: xx-large;
+            font-size: large;
             gap: 1rem;
             align-items: center;
             justify-content: center;
@@ -533,7 +536,7 @@ $font__DM:'DM Sans', sans-serif;
         height: 3.375rem;
 
         input:checked ~ .menu {
-            width:13rem;
+            width:11rem;
         }
 
     }
